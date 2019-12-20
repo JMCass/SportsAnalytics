@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b07c84cf8e245c79f1a660b54326445 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7b07c84cf8e245c79f1a660b54326445" ></div>
+        
+</body>
+<script>    
+    
+            var map_7b07c84cf8e245c79f1a660b54326445 = L.map(
+                "map_7b07c84cf8e245c79f1a660b54326445",
+                {
+                    center: [-32.918889, 151.726667],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f309d1b372e4c3e8b17a0f45e4a277a = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+            var circle_marker_5386e0581d2f4788a29ca4170abd7557 = L.circleMarker(
+                [-34.9075, 138.56888899999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_139760d26ddd466b94ae9c878d194a53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af59d40d96104a6b9a68ec7228965304 = $(`<div id="html_af59d40d96104a6b9a68ec7228965304" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Adelaide United<br><b>Stadium: </b>Hindmarsh Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_139760d26ddd466b94ae9c878d194a53.setContent(html_af59d40d96104a6b9a68ec7228965304);
+        
+
+        circle_marker_5386e0581d2f4788a29ca4170abd7557.bindPopup(popup_139760d26ddd466b94ae9c878d194a53)
+        ;
+
+        
+    
+    
+            var circle_marker_9901f097e7d945cf8ae9d00c5913b5a6 = L.circleMarker(
+                [-27.464722, 153.009444],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_3a12662e44ef48609e55b73b4bfb9dcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_655774855e744379a6e1141e9d623c30 = $(`<div id="html_655774855e744379a6e1141e9d623c30" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Brisbane Roar<br><b>Stadium: </b>Lang Park<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_3a12662e44ef48609e55b73b4bfb9dcc.setContent(html_655774855e744379a6e1141e9d623c30);
+        
+
+        circle_marker_9901f097e7d945cf8ae9d00c5913b5a6.bindPopup(popup_3a12662e44ef48609e55b73b4bfb9dcc)
+        ;
+
+        
+    
+    
+            var circle_marker_6c8b30b5feec44b395b623f6729a1df9 = L.circleMarker(
+                [-33.428333, 151.338056],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_cdb551eaaae9489c90091ebd01eee5c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d2a1b72fbe14162ae3fc1f46bd45586 = $(`<div id="html_2d2a1b72fbe14162ae3fc1f46bd45586" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Central Coast Mariners<br><b>Stadium: </b>Central Coast Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_cdb551eaaae9489c90091ebd01eee5c0.setContent(html_2d2a1b72fbe14162ae3fc1f46bd45586);
+        
+
+        circle_marker_6c8b30b5feec44b395b623f6729a1df9.bindPopup(popup_cdb551eaaae9489c90091ebd01eee5c0)
+        ;
+
+        
+    
+    
+            var circle_marker_b2ba3d31d702406db68c9df7755512e7 = L.circleMarker(
+                [-37.825278000000004, 144.98388899999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_704272a844874af7ae07d80366693d9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b01c19914eee48d991f539db71790b64 = $(`<div id="html_b01c19914eee48d991f539db71790b64" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Melbourne City FC<br><b>Stadium: </b>Melbourne Rectangular Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_704272a844874af7ae07d80366693d9c.setContent(html_b01c19914eee48d991f539db71790b64);
+        
+
+        circle_marker_b2ba3d31d702406db68c9df7755512e7.bindPopup(popup_704272a844874af7ae07d80366693d9c)
+        ;
+
+        
+    
+    
+            var circle_marker_a2384bebc70d4cbeacbf224b7b8fa3dd = L.circleMarker(
+                [-37.825278000000004, 144.98388899999998],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_79a7895917ec452b922769d7e32572dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d0e6aa9ecc84824903745ab6ed568fb = $(`<div id="html_4d0e6aa9ecc84824903745ab6ed568fb" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Melbourne Victory<br><b>Stadium: </b>Melbourne Rectangular Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_79a7895917ec452b922769d7e32572dd.setContent(html_4d0e6aa9ecc84824903745ab6ed568fb);
+        
+
+        circle_marker_a2384bebc70d4cbeacbf224b7b8fa3dd.bindPopup(popup_79a7895917ec452b922769d7e32572dd)
+        ;
+
+        
+    
+    
+            var circle_marker_8eccc255e9bb4075a15a56eb3d52515d = L.circleMarker(
+                [-32.918889, 151.726667],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_fbc4ff3ac7fc47bc83ea6bae10be05b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b1cf71fab41488e8f7d3d8de52bd696 = $(`<div id="html_0b1cf71fab41488e8f7d3d8de52bd696" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Newcastle Jets<br><b>Stadium: </b>McDonald Jones Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_fbc4ff3ac7fc47bc83ea6bae10be05b7.setContent(html_0b1cf71fab41488e8f7d3d8de52bd696);
+        
+
+        circle_marker_8eccc255e9bb4075a15a56eb3d52515d.bindPopup(popup_fbc4ff3ac7fc47bc83ea6bae10be05b7)
+        ;
+
+        
+    
+    
+            var circle_marker_fce56d165f80422bba4dfda1374099a2 = L.circleMarker(
+                [-31.945954999999998, 115.870131],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_842348fa203c48908edaaeb71810a9c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b12e764cc38423995ae0fded5c183d0 = $(`<div id="html_1b12e764cc38423995ae0fded5c183d0" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Perth Glory<br><b>Stadium: </b>NIB Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_842348fa203c48908edaaeb71810a9c8.setContent(html_1b12e764cc38423995ae0fded5c183d0);
+        
+
+        circle_marker_fce56d165f80422bba4dfda1374099a2.bindPopup(popup_842348fa203c48908edaaeb71810a9c8)
+        ;
+
+        
+    
+    
+            var circle_marker_ff495b4b99c8454faf4b014d9dc707ba = L.circleMarker(
+                [-33.889167, 151.225278],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_e345ab91ba934378aa47e9dbc859a399 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70d17b020a8e4be4a1ef914605aa6fb3 = $(`<div id="html_70d17b020a8e4be4a1ef914605aa6fb3" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Sydney FC<br><b>Stadium: </b>Allianz Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_e345ab91ba934378aa47e9dbc859a399.setContent(html_70d17b020a8e4be4a1ef914605aa6fb3);
+        
+
+        circle_marker_ff495b4b99c8454faf4b014d9dc707ba.bindPopup(popup_e345ab91ba934378aa47e9dbc859a399)
+        ;
+
+        
+    
+    
+            var circle_marker_d4e434185f9945ddb15e3ebead6753a1 = L.circleMarker(
+                [-33.843056, 151.067778],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_4ecc0dd62b1b40faa765ae0df11348db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6da75438ab8f434896f41dbb94facfa0 = $(`<div id="html_6da75438ab8f434896f41dbb94facfa0" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Western Sydney Wanderers<br><b>Stadium: </b>Sydney Showground Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_4ecc0dd62b1b40faa765ae0df11348db.setContent(html_6da75438ab8f434896f41dbb94facfa0);
+        
+
+        circle_marker_d4e434185f9945ddb15e3ebead6753a1.bindPopup(popup_4ecc0dd62b1b40faa765ae0df11348db)
+        ;
+
+        
+    
+    
+            var circle_marker_05c9a9bf395a4dae824995f8352d6c01 = L.circleMarker(
+                [-41.273056, 174.785833],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7b07c84cf8e245c79f1a660b54326445);
+        
+    
+        var popup_07c49be94e3e4985b9ca5c3e98f3480c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ce861d4dda24c779e008aa5f8b95866 = $(`<div id="html_2ce861d4dda24c779e008aa5f8b95866" style="width: 100.0%; height: 100.0%;"><b>Club: </b>Wellington Phoenix<br><b>Stadium: </b>Westpac Stadium<br><b>Country: </b>Australia<br><b>Division: </b>HYUNDAI A-LEAGUE</div>`)[0];
+            popup_07c49be94e3e4985b9ca5c3e98f3480c.setContent(html_2ce861d4dda24c779e008aa5f8b95866);
+        
+
+        circle_marker_05c9a9bf395a4dae824995f8352d6c01.bindPopup(popup_07c49be94e3e4985b9ca5c3e98f3480c)
+        ;
+
+        
+    
+</script>
